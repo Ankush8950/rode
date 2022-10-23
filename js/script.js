@@ -5,7 +5,7 @@
 //         console.log(navbar)
 
 // })
-
+// navbar
 let menuItems = document.getElementById('menuItems')
 let menubtn = document.getElementById('menubtn')
 let closebtn = document.getElementById('closebtn')
@@ -19,22 +19,24 @@ closebtn.addEventListener('click', function () {
 })
 
 
-// const accordionHeader = document.querySelectorAll(".accordion-header");
-// const plus = document.getElementsByClassName('plus')
-// const minus = document.getElementsByClassName('minus')
-   
-// accordionHeader.forEach((header)=>{
-//     header.addEventListener('click',function(){
-//         const accordionContent = header.parentElement.querySelector(".accordion-content");
-//         let accordionMaxHeight = accordionContent.style.maxHeight;
-//         console.log(accordionMaxHeight);
+// Accordion menu
+let accordionHeader = document.getElementsByClassName('accordion-header')
+let minus = document.getElementsByClassName('minus')
+let plus = document.getElementsByClassName('plus')
 
+let i;
 
-//         if (accordionMaxHeight == '0px' || accordionMaxHeight.length == 0){
-//             accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
-//             header.classList.remove(plus)
-//             header.classList.add(minus)
-//         }
-//     })
-// })
-
+for (i = 0; i < accordionHeader.length; i++){
+    accordionHeader[i].addEventListener('click',function(){
+        console.log('hey')
+        this.classList.toggle('active')
+        let accordionContent = this.nextElementSibling;
+        if (accordionContent.style.display === 'block'){
+            accordionContent.style.display = 'none'
+        } 
+        else{
+            accordionContent.style.display = "block";
+        }
+    
+    })
+}
