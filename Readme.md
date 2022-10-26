@@ -11,9 +11,9 @@
 
 # A complete Rode using tailwind css
 
-# **Time Taken for this projact**
-> I spent  around 15 hours completed this projact. and this is a completely responsive Design 
+# **Time Taken for this project**
+> I spent  around 15 hours completing this project , and this is a completely responsive Design. 
 
-# 🚀[Live Projact Hosted Link](https://velvety-genie-9718a9.netlify.app)
+# 🚀[Live Project Hosted Link](https://velvety-genie-9718a9.netlify.app)
 
 ![show image](./rode.png)
