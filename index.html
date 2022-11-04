@@ -36,15 +36,15 @@
         }
     </script>
     <style>
-        .accordionContent {
+        /* .accordionContent {
         transition: max-height 0.3s ease-out, padding 0.3s ease;
-        }
+        } */
     </style>
    </head>
 <body>
     <div>
         <!-- Top dropdown -->
-        <div class="h-10 border-b-2 flex items-center justify-between pl-[20px] sm:pl-[80px] pr-[20px] sm:pr-[70px]">
+        <div class="h-10  fixed lg:sticky w-full bg-white border-b-2 flex items-center justify-between pl-[20px] sm:pl-[80px] pr-[20px] sm:pr-[70px]">
             <div class="flex items-center justify-center">
                 <div id="menubtn" class="block lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -445,7 +445,7 @@
                     </span>
                     </div>
                     </div>
-                <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] accordionContent">
+                <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] ease-in-out duration-300 accordionContent">
                     <li class="mt-2 cursor-pointer hover:opacity-60">Microphones</li>
                     <li class="mt-2 cursor-pointer hover:opacity-60">Headphones</li>
                     <li class="mt-2 cursor-pointer hover:opacity-60">Interfaces and Mixers</li>
@@ -474,7 +474,7 @@
                     </span>
                     </div>
                 </div>
-                <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] accordionContent">
+                <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] ease-in-out duration-300 accordionContent">
                     <li class="mt-2 cursor-pointer hover:opacity-60">Contact RØDE</li>
                     <li class="mt-2 cursor-pointer hover:opacity-60">Service Centre</li>
                     <li class="mt-2 cursor-pointer hover:opacity-60">Warranty</li>
@@ -502,7 +502,7 @@
                     </div>
                 </div>
 
-                <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] accordionContent">
+                <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] ease-in-out duration-300 accordionContent">
                     <li class="mt-2 cursor-pointer hover:opacity-60">About RØDE</li>
                     <li class="mt-2 cursor-pointer hover:opacity-60">News and Info</li>
                     <li class="mt-2 cursor-pointer hover:opacity-60">Job Opportunities</li>
@@ -527,7 +527,7 @@
                     </div>
                         </div>
                         <div class="block sm:hidden bg-black w-full h-[1px] mt-[20px] opacity-25"></div>
-                        <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] accordionContent">
+                        <ul class="font-light text-base mt-2 hidden sm:block h-[auto] sm:h-[auto] ease-in-out duration-300 accordionContent">
                          <li class="mt-2 text-black cursor-pointer hover:opacity-60">Manage your Account</li>
                          <li class="mt-2 text-black cursor-pointer hover:opacity-60">Create Account</li>
                         </ul>
