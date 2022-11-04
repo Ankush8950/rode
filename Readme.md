@@ -7,8 +7,6 @@
 [![](https://img.shields.io/badge/MYPORTFOLIO-blue?style=for-the-badge)](https://devloperankush.tk/ 'Link')
 
 
-<!-- [![]()]() -->
-
 # A complete Rode using tailwind css
 
 # **Time Taken for this project**

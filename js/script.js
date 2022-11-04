@@ -1,4 +1,3 @@
-
 // window.addEventListener('scroll',function(){
 //     let navbar = document.querySelector('#navbar')
 //         navbar.classList.toggle('sticky',window.screenY > 0)
@@ -26,17 +25,16 @@ let plus = document.getElementsByClassName('plus')
 
 let i;
 
-for (i = 0; i < accordionHeader.length; i++){
-    accordionHeader[i].addEventListener('click',function(){
+for (i = 0; i < accordionHeader.length; i++) {
+    accordionHeader[i].addEventListener('click', function () {
         console.log('hey')
         this.classList.toggle('active')
         let accordionContent = this.nextElementSibling;
-        if (accordionContent.style.display === 'block'){
+        if (accordionContent.style.display === 'block') {
             accordionContent.style.display = 'none'
-        } 
-        else{
+        } else {
             accordionContent.style.display = "block";
         }
-    
+
     })
 }
